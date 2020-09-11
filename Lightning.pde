@@ -8,6 +8,7 @@ void setup()
 {
   size(500, 500);
   strokeWeight(6);
+  background(0);
   img = loadImage("dam.jpg");
   img.resize(500, 500);
   image(img, 0, 0);
