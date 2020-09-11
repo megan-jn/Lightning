@@ -1,7 +1,7 @@
 int startX = 250;
 int startY = 250;
 int endX = 0;
-int endY = 510;
+int endY = 500;
 PImage img;
 
 void setup()
@@ -28,5 +28,5 @@ void mousePressed()
   startX = 250;
   startY = 250;
   endX = 0;
-  endY = 250;
+  endY = 500;
 }
