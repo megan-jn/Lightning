@@ -23,6 +23,7 @@ void draw()
     startX = endX;
     startY = endY;
   }
+  image(img, 0, 0);
 }
 void mousePressed()
 {
