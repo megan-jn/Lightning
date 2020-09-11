@@ -1,13 +1,14 @@
+/* @pjs preload="dam.jpg"; */
 int startX = 250;
 int startY = 250;
 int endX = 0;
 int endY = 510;
+PImage img;
 
 void setup()
 {
   size(500, 500);
   strokeWeight(6);
-  PImage img;
   img = loadImage("dam.jpg");
   img.resize(500, 500);
   background(img);
