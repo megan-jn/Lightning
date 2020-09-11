@@ -10,7 +10,7 @@ void setup()
   strokeWeight(6);
   dam = loadImage("dam.jpg");
   dam.resize(500, 500);
-  image(dam, 0, 0);
+  image(dam, 10, 10);
 }
 void draw()
 {
