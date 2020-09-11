@@ -14,12 +14,14 @@ body {
 }
 
 header {
-	font-family: 'Luckiest Guy', cursive;	
+	font-family: 'Luckiest Guy', cursive;
+	text-shadow: 2px 2px 5px white;
 }
 
 footer {
 	font-family: 'Oswald', sans-serif;
 	font-style: italic;
 	font-size: 90%;
+	text-shadow: 2px 2px 5px white;
 }
 
