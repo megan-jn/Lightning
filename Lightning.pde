@@ -2,15 +2,15 @@ int startX = 250;
 int startY = 250;
 int endX = 0;
 int endY = 500;
-PImage img;
+PImage dam;
 
 void setup()
 {
   size(500, 500);
   strokeWeight(6);
-  img = loadImage("dam.jpg");
-  img.resize(500, 500);
-  background(img);
+  dam = loadImage("dam.jpg");
+  dam.resize(500, 500);
+  image(dam, 0, 0);
 }
 void draw()
 {
