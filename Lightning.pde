@@ -14,6 +14,7 @@ void setup()
 }
 void draw()
 {
+  image(dam, 10, 10);
   stroke((int) (Math.random()*1) + 100, (int) (Math.random()*200) + 100, (int) (Math.random()*256) + 200);
   while (endX < 500) {
     endX = startX + (int)(Math.random()*10);
