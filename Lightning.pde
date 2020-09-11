@@ -1,4 +1,3 @@
-/* @pjs preload="dam.jpg"; */
 int startX = 250;
 int startY = 250;
 int endX = 0;
