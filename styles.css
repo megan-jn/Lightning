@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Oswald&display=swap');
 
 body {
     background-color: rgb(200,200,200);
@@ -13,10 +14,11 @@ body {
 }
 
 header {
-	
+	font-family: 'Luckiest Guy', cursive;	
 }
 
 footer {
+	font-family: 'Oswald', sans-serif;
 	font-style: italic;
 	font-size: 90%;
 }
